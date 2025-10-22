@@ -3,4 +3,24 @@
 # Auton nopeus ei saa kasvaa huippunopeutta suuremmaksi eikä alentua nollaa pienemmäksi.
 # Jatka pääohjelmaa siten, että auton nopeutta nostetaan ensin +30 km/h, sitten +70 km/h ja lopuksi +50 km/h.
 # Tulosta tämän jälkeen auton nopeus.
-# Tee sitten hätäjarrutus määräämällä nopeuden muutos -200 km/h ja tulosta uusi nopeus. Kuljettua matkaa ei tarvitse vielä päivittää.
+# Tee sitten hätäjarrutus määräämällä nopeuden muutos -200 km/h ja tulosta uusi nopeus.
+# Kuljettua matkaa ei tarvitse vielä päivittää.
+
+from classes.auto import Auto
+
+
+auto1 = Auto("ABC-123", 142)
+
+auto1.kiihdyta(30)
+auto1.kiihdyta(70)
+auto1.kiihdyta(50)
+print(f"Auto kiihdytti nopeuteen {auto1.nopeus} km/h.")
+auto1.kiihdyta(-200)
+print(f"Auto hätäjarrutti nopeuteen {auto1.nopeus} km/h.")
+
+print(f"""
+Auton rekisteritunnus on {auto1.rekisteritunnus}.
+Auton huippunopeus on  {auto1.huippunopeus} km/h.
+Tämänhetkinen auton nopeus on {auto1.nopeus} km/h.
+Autolla kuljettu matka on {auto1.kuljettu_matka} km.
+""")

@@ -5,3 +5,7 @@ class Auto:
         self.nopeus = nopeus
         self.kuljettu_matka = kuljettu_matka
 
+    def kiihdyta(self, muutos):
+        self.muutos = muutos
+        self.nopeus = self.nopeus + muutos
+
