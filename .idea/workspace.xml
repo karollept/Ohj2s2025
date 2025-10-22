@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa3ea55-0f78-465a-acb3-1b080e6d40f0" name="Changes" comment="fas">
-      <change afterPath="$PROJECT_DIR$/mod-9/classes/auto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod-9/teht1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-9/teht1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod-9/teht2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-9/teht2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod-9/teht3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-9/teht3.py" afterDir="false" />
+    <list default="true" id="6aa3ea55-0f78-465a-acb3-1b080e6d40f0" name="Changes" comment="mod9 teht 3 done">
+      <change beforePath="$PROJECT_DIR$/mod-9/classes/auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-9/classes/auto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod-9/teht4.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-9/teht4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +52,9 @@
     "Python.auto.executor": "Run",
     "Python.main.executor": "Run",
     "Python.teht1.executor": "Run",
+    "Python.teht2.executor": "Run",
+    "Python.teht3.executor": "Run",
+    "Python.teht4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761044640101</updated>
-      <workItem from="1761044641227" duration="10198000" />
+      <workItem from="1761044641227" duration="14405000" />
     </task>
     <task id="LOCAL−00001" summary="fas">
       <option name="closed" value="true" />
@@ -91,7 +91,42 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1761045539661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="mod9 teht 1 done">
+      <option name="closed" value="true" />
+      <created>1761117566476</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1761117566476</updated>
+    </task>
+    <task id="LOCAL−00003" summary="mod9 teht 1 done">
+      <option name="closed" value="true" />
+      <created>1761117582993</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1761117582994</updated>
+    </task>
+    <task id="LOCAL−00004" summary="mod9 teht 2 done">
+      <option name="closed" value="true" />
+      <created>1761118722635</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1761118722635</updated>
+    </task>
+    <task id="LOCAL−00005" summary="mod9 teht 2 done">
+      <option name="closed" value="true" />
+      <created>1761120282751</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1761120282751</updated>
+    </task>
+    <task id="LOCAL−00006" summary="mod9 teht 3 done">
+      <option name="closed" value="true" />
+      <created>1761120732368</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1761120732368</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +145,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fas" />
-    <option name="LAST_COMMIT_MESSAGE" value="fas" />
+    <MESSAGE value="mod9 teht 1 done" />
+    <MESSAGE value="mod9 teht 2 done" />
+    <MESSAGE value="mod9 teht 3 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod9 teht 3 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -124,8 +162,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ohj2s2025$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1761117440766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod-9" />
+    <SUITE FILE_PATH="coverage/Ohj2s2025$teht2.coverage" NAME="teht2 Coverage Results" MODIFIED="1761120269071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod-9" />
+    <SUITE FILE_PATH="coverage/Ohj2s2025$teht3.coverage" NAME="teht3 Coverage Results" MODIFIED="1761120627730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod-9" />
+    <SUITE FILE_PATH="coverage/Ohj2s2025$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1761117627410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod-9" />
     <SUITE FILE_PATH="coverage/Ohj2s2025$main.coverage" NAME="main Coverage Results" MODIFIED="1761044671310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Ohj2s2025$auto.coverage" NAME="auto Coverage Results" MODIFIED="1761116967665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod-9/auto" />
+    <SUITE FILE_PATH="coverage/Ohj2s2025$teht4.coverage" NAME="teht4 Coverage Results" MODIFIED="1761121440429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod-9" />
+    <SUITE FILE_PATH="coverage/Ohj2s2025$auto.coverage" NAME="auto Coverage Results" MODIFIED="1761121436786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod-9/classes" />
   </component>
 </project>
