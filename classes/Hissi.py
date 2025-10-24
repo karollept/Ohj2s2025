@@ -1,12 +1,16 @@
 import random
 
 class elevator:
-    def __init__(self, sijainti = 1, alin_kerros = 1, ylin_kerros = 9):
-        self.sijainti = sijainti
+    def __init__(self, nimi, alin_kerros, ylin_kerros):
+        self.nimi = nimi
         self.alin_kerros = alin_kerros
         self.ylin_kerros = ylin_kerros
+        self.sijainti = self.alin_kerros
 
-    def kerros_ylös(self):
+    def __repr__(self):
+        return f"{self.nimi} (kerros: {self.sijainti})"
+
+    def kerros_ylos(self):
         if self.sijainti < self.ylin_kerros:
             self.sijainti += 1
         else:
@@ -20,17 +24,14 @@ class elevator:
 
     def siirry_kerrokseen(self, haluttu_kerros):
         self.haluttu_kerros = haluttu_kerros
-        if self.haluttu_kerros > self.ylin_kerros:
-            print(
-                  f"Hissillä ei pääse kerrokseen {haluttu_kerros}, tällä hissillä pääsee vain kerrokseen {self.ylin_kerros}.")
-        elif self.haluttu_kerros < self.alin_kerros:
-            print(
-                f"Hissillä ei pääse kerrokseen {haluttu_kerros}, tällä hissillä pääsee vain kerrokseen {self.alin_kerros}.")
-        else:
-            while self.sijainti != self.haluttu_kerros:
-                if self.sijainti > self.haluttu_kerros:
-                    self.sijainti -= 1
-                else:
-                    self.sijainti += 1
+        if haluttu_kerros < self.alin_kerros or haluttu_kerros > self.ylin_kerros:
+            print(f"{self.nimi}: Kerros {haluttu_kerros} ei ole sallittu ({self.alin_kerros}-{self.ylin_kerros})")
+            return
 
-
+        print(f"{self.nimi} lähtee kerroksesta {self.sijainti} kohti kerrosta {haluttu_kerros}")
+        while self.sijainti != haluttu_kerros:
+            if haluttu_kerros > self.sijainti:
+                self.kerros_ylos()
+            else:
+                self.kerros_alas()
+        print(f"{self.nimi} saapui kerrokseen {self.sijainti}")
