@@ -7,3 +7,8 @@
 # missä kerroksessa hissi sen jälkeen on.
 # Testaa luokkaa siten, että teet pääohjelmassa hissin ja käsket sen siirtymään haluamaasi kerrokseen
 # ja sen jälkeen takaisin alimpaan kerrokseen.
+from classes.Hissi import elevator
+
+elevator1 = elevator()
+elevator1.kerros_ylös()
+print(elevator1.sijainti)
