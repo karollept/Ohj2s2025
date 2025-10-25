@@ -14,7 +14,23 @@ class competition:
             self.autot.append(auto)
         print(self.autot)
 
-    def highscore(self):
+    def tunti_kuluu(self):
+        while True:
+            kierros=0
+            for auto in self.autot:
+                auto.kiihdyta(random.randint(-10, 15))
+                auto.kulje(1)
+                kierros += 1
+                if kierros % 10 == 0:
+                    return
+
+    def kilpailu_ohi(self):
+        for auto in self.autot:
+            if auto.kuljettu_matka >= self.pituus_kilometreina:
+                return True
+        return False
+
+    def tilanne(self):
         print("Kierroksen tulokset")
         print(f"{'Auto':<10} {'Matka (km)':<12} {'Nopeus (km/h)':<15} {'Huippunopeus':<13}")
         print("-" * 50)
@@ -23,21 +39,4 @@ class competition:
 
         for auto in self.autot:
             print(f"{auto.rekisteritunnus:<10} {auto.kuljettu_matka:<12} {auto.nopeus:<15} {auto.huippunopeus:<13}")
-
-    def tunti_kuluu(self):
-        while True:
-            for auto in self.autot:
-                auto.kiihdyta(random.randint(-10, 15))
-                auto.kulje(1)
-
-                if auto.kuljettu_matka >= self.pituus_kilometreina:
-                    return
-
-    def kilpailu_ohi(self):
-        for auto in self.autot:
-            if auto.kuljettu_matka >= self.pituus_kilometreina:
-                self.highscore()
-                return
-
-
-
+        print("")
