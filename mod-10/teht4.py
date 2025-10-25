@@ -17,3 +17,10 @@
 # jonka jälkeen aina tarkistetaan kilpailu_ohi-metodin avulla, onko kilpailu ohi.
 # Ajantasainen tilanne tulostetaan tulosta tilanne-metodin avulla kymmenen tunnin välein sekä kertaalleen sen jälkeen,
 # kun kilpailu on päättynyt.
+
+from classes.Kilpailu import competition
+
+kilpailu1 = competition("Suuri romuralli", 8000, 10)
+
+kilpailu1.tunti_kuluu()
+kilpailu1.kilpailu_ohi()

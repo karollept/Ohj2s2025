@@ -7,6 +7,9 @@ class Auto:
         self.nopeus = nopeus
         self.kuljettu_matka = kuljettu_matka
 
+    def __repr__(self):
+        return f"{self.rekisteritunnus} (huippunopeus: {self.huippunopeus})"
+
     def kiihdyta(self, muutos):
         self.muutos = muutos
         self.nopeus = self.nopeus + self.muutos
