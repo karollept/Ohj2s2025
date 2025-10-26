@@ -1,3 +1,7 @@
+#Jatka edellisen tehtävän ohjelmaa siten, että Talo-luokassa on parametriton metodi palohälytys,
+# joka käskee kaikki hissit pohjakerrokseen.
+#Jatka pääohjelmaa siten, että talossasi tulee palohälytys.
+
 from classes.Talo import house
 
 house1 = house(3)

@@ -31,7 +31,7 @@ def kisa_kierros(Auto):
         for auto in Auto:
             auto.kiihdyta(random.randint(-10, 15))
             auto.kulje(1)
-            #print(f"{auto.rekisteritunnus}: nopeus {auto.nopeus} km/h, matka {auto.kuljettu_matka} km")
+            # print(f"{auto.rekisteritunnus}: nopeus {auto.nopeus} km/h, matka {auto.kuljettu_matka} km")
             if auto.kuljettu_matka >= 10000:
                 highscore(Auto)
                 return
