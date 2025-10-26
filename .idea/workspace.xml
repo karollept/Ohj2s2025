@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa3ea55-0f78-465a-acb3-1b080e6d40f0" name="Changes" comment="mod10 teht4 valmis">
-      <change afterPath="$PROJECT_DIR$/classes/Julkaisu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod-11/teht1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-11/teht1.py" afterDir="false" />
+    <list default="true" id="6aa3ea55-0f78-465a-acb3-1b080e6d40f0" name="Changes" comment="mod11 teht1 valmis">
+      <change beforePath="$PROJECT_DIR$/mod-10/teht1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-10/teht1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod-10/teht2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-10/teht2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod-10/teht3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-10/teht3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod-10/teht4.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-10/teht4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod-9/teht4.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod-9/teht4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
