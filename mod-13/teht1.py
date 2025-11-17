@@ -3,7 +3,8 @@
 # Esimerkiksi lukua 31 vastaava GET-pyyntö annetaan muodossa: http://127.0.0.1:3000/alkuluku/31.
 #Vastauksen on oltava muodossa: {"Number":31, "isPrime":true}.
 
-from flask import Flask, request
+from flask import Flask, Response
+import json
 
 app = Flask(__name__)
 
@@ -21,13 +22,8 @@ def tarkista_alkuluku(luku):
         "Number": luku,
         "isPrime": isPrime(luku)
     }
-    return (vastaus)
+    json_vastaus = json.dumps(vastaus)
+    return Response(json_vastaus, content_type='application/json')
 
 if __name__ == '__main__':
-    app.run(use_reloader=True, host='127.0.0.1', port=3000)
-
-haku = input("Anna numero josta haluat tietää onko se alkuluku: ")
-pyynto = f"http://127.0.0.1:3000/alkuluku/{haku}"
-
-vastaus = requests.get(pyynto)
-print(vastaus.json())
+    app.run(host='127.0.0.1', port=5000)
